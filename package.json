@@ -1,0 +1,54 @@
+{
+  "name": "advanced-css-javascript-learning-hub",
+  "version": "1.0.0",
+  "description": "A comprehensive interactive learning platform for mastering responsive design, JavaScript functionality, and API integration",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/",
+    "dev": "live-server --port=3000 --open=/ --watch=.",
+    "serve": "python3 -m http.server 8000",
+    "serve-php": "php -S localhost:8000",
+    "build": "echo 'No build process needed for this static project'",
+    "test": "echo 'No tests configured yet'",
+    "lint": "echo 'No linting configured yet'",
+    "format": "echo 'No formatting configured yet'"
+  },
+  "keywords": [
+    "css",
+    "javascript",
+    "responsive-design",
+    "media-queries",
+    "interactive",
+    "quiz",
+    "carousel",
+    "api",
+    "fetch",
+    "education",
+    "learning",
+    "web-development",
+    "frontend",
+    "es6",
+    "modern-javascript"
+  ],
+  "author": "Learning Hub Project",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/advanced-css-javascript-learning-hub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/advanced-css-javascript-learning-hub/issues"
+  },
+  "homepage": "https://github.com/your-username/advanced-css-javascript-learning-hub#readme"
+}
